@@ -16,7 +16,7 @@ const NavBar = () => {
       <NavLink
       to="/"
       exact
-      
+
     </div>
   );
 };
