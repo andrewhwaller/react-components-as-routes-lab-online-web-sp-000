@@ -15,6 +15,10 @@ const App = (props) => {
     <Router>
       <div>
         <Navbar />
+        <Route />
+        <Route />
+        <Route />
+        <Route />
       </div>
     </Router>
   );
