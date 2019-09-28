@@ -15,10 +15,10 @@ const App = (props) => {
     <Router>
       <div>
         <Navbar />
-        <Route />
-        <Route />
-        <Route />
-        <Route />
+        <Route exact path="/" component={Home} />
+        <Route exact path="" component={} />
+        <Route exact path="" component={} />
+        <Route exact path="" component={} />
       </div>
     </Router>
   );
